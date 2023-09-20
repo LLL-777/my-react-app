@@ -1,4 +1,6 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+.gitignore
+package-lock.json
 
 # dependencies
 /node_modules
@@ -10,10 +12,8 @@
 
 # production
 /build
-package-lock.json
 
 # misc
-.gitignore
 .DS_Store
 .env.local
 .env.development.local
